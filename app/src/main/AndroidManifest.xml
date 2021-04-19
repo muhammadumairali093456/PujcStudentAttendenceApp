@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pujcstudentattendenceapp">
+
+    <application
+        android:name=".controller.ApplicationContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.LoginTeacher"></activity>
+        <activity android:name=".view.LoginMenu" />
+        <activity android:name=".view.ConfirmPassword" />
+        <activity android:name=".view.ForgetPassword" />
+        <activity android:name=".view.Register" />
+        <activity android:name=".view.LoginAdmin" />
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.MenuActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.AddTeacherActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.AddStudentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.ViewTeacherActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.ViewStudentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.ViewStudentByBranchYear"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.AddAttandanceSessionActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.AddAttendanceActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".view.ViewAttendanceByTeacherActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
